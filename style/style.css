@@ -1,0 +1,454 @@
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.main-header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+    z-index: 1;
+}
+
+.main-header__logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__logo img {
+    display: inline-block;
+    width: 54px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-navigation__item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-navigation__item a {
+    color: #05364d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main-navigation__item a:hover {
+    color: #efb6df;
+}
+
+.main-navigation__item.active a {
+    color: #efb6df;
+}
+
+.katta-harf {
+    text-transform: uppercase;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/* Main section */
+.main-section {
+    padding: 100px 0px;
+}
+
+.main-section>div {
+    width: 50%;
+    float: left;
+}
+
+.main-section__image {
+    text-align: right;
+}
+
+.main-section__image img {
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.main-section__welcome {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+}
+
+.main-section__kirish {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #05364E;
+}
+
+.main-section__vazifa {
+    color: #05364E;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.main-section__ijtimoiy-tarmoq a {
+    color: #8FA1AA;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 19px;
+    cursor: pointer;
+}
+
+.main-section__ijtimoiy-tarmoq a i:hover {
+    color: #1C44E4;
+}
+
+.main-section__kurslar {
+    margin-top: 30px;
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+    background-size: 200% auto;
+}
+
+.main-section__kurslar:hover{
+    background-position: right center;
+    
+}
+
+/*Statisyika section */
+.statistika {
+    padding-top: 100px;
+}
+
+.statistika-item {
+    display: inline-block;
+    background-color: #F8FAFF;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+.statistika-raqam {
+    font-size: 27px;
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 5px;
+    color: #1C44E4;
+}
+
+.statistika-text {
+    font-size: 16px;
+    color: #797979;
+    font-weight: 300;
+}
+
+/* biz haqimizda section */
+.biz-haqimizda {
+    padding: 100px 0px;
+}
+
+.biz-haqimizda>div {
+    width: 50%;
+    float: left;
+}
+
+.biz-haqimizda iframe {
+    width: 90%;
+}
+
+.biz-haqimizda__malumot {
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: uppercase;
+}
+
+.section-title {
+    margin-top: 5px;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #05364d;
+}
+
+.button {
+    border: none;
+    background-color: #1C44E4;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.blur-line {
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background-color: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+    border-radius: 4px;
+}
+
+.biz-haqimizda__information {
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+    line-height: 27px;
+}
+
+.biz-haqimizda__section {
+    margin-top: 40px;
+}
+
+
+/* Tovar va xizmatlar section */
+.tovar-xizmat {
+    padding: 100px 0px;
+}
+
+.tovar-xizmat__bolim {
+    display: inline-block;
+    width: 30%;
+    padding: 60px 30px;
+    background-color: #F8FAFF;
+    margin-right: 3%;
+    box-sizing: border-box;
+
+}
+
+.tovar-xizmat__titile {
+    color: #05364d;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.tovar-xizmat__tarif {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #797979;
+}
+
+.tovar-xizmat__link {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+
+    color: #007A5C;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.tovar-xizmat__link:hover{
+    color: #007A5C;
+    letter-spacing: 1px;
+}
+
+.tovar-xizmat__bolim:hover {
+    background-color: #5F30FF;
+}
+
+.tovar-xizmat__bolim:hover .tovar-xizmat__title,
+.tovar-xizmat__bolim:hover .tovar-xizmat__tarif,
+.tovar-xizmat__bolim:hover .tovar-xizmat__link {
+    color: white;
+}
+
+/* paket section */
+.paket-section{
+    position: relative;
+    padding: 100px 0px;
+}
+
+.paket-items{
+    position: relative;
+    margin-top: 50px;
+}
+
+.paket-item{
+    margin-top: 50px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 45%;
+    height: 100vh;
+}
+
+.paket-item2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.paket-item__image{
+    background-size: cover;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.paket-item__image:hover{
+    opacity: 1;
+}
+
+.paket-item__overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(19, 69, 230, 0.9);
+    visibility: hidden;
+}
+
+.paket-item__info{
+    position: absolute;
+    bottom: 44px;
+    left: 80px;
+    color: white;
+    visibility: hidden;
+}
+
+.paket-item__info a{
+    color: #FFFFFF;
+    text-decoration: none; 
+}
+
+.paket-item:hover .paket-item__overlay{
+    visibility: visible;
+    top: 20px;
+    left: 20px;
+}
+
+.paket-item:hover .paket-item__info{
+    visibility: visible;
+    top: 24px;
+    left: 60px;
+}
+
+
+/*Yordam va maslaxat */
+.yordam{
+    padding-top: 100px;
+}
+
+.yordam-items{
+    margin-top: 50px;
+}
+
+.yordam-item{
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+    box-sizing: border-box;
+}
+
+.yordam-item_image img{
+    width: 100%;
+}
+
+.yordam-item__info{
+    background-color: #F8FAFF;
+    padding: 10px;
+    color: #797979;
+
+}
+
+.yordam-item__main-info span{
+    font-size: 14px;
+    margin-right: 30px;
+
+}
+.yordam-item__info i{
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.yordam-item__title{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #05364d;
+    font-weight: 700;
+}
+
+.yordam-item__tarif{
+    line-height: 27px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+/*footer section*/
+.footer{
+    padding: 50px 0;
+    background-color: #021017;
+    text-align: center;
+}
+
+.footer-logo img{
+    width: 128px;
+}
+
+.footer-navigation__item{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.footer-navigation__item a{
+        color: white;
+        text-decoration: none;
+}
+.footer-networks{
+    list-style: none;
+}
+
+.footer-network{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 36px;
+    color: #05364d;
+    font-size: 16px;
+    margin-right: 12px;
+}
+.footer-network:hover{
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);  
+}
+
+.footer-network:hover i{
+    color: white;
+}
